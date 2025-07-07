@@ -9,15 +9,19 @@
       font-family: 'Segoe UI', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f2f2f2;
+      background: linear-gradient(rgba(240, 89, 89, 0.6), rgba(15, 70, 253, 0.6)),
+                  url('https://images.unsplash.com/photo-1503264116251-35a269479413?auto=format&fit=crop&w=1350&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
     }
     .container {
       max-width: 800px;
-      margin: 30px auto;
+      margin: 40px auto;
       background: white;
-      padding: 20px;
+      padding: 30px;
       border-radius: 15px;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.2);
     }
     .profile-pic {
       width: 150px;
@@ -29,7 +33,7 @@
     }
     h1, h2 {
       text-align: center;
-      color: #333;
+      color: #222;
     }
     p {
       font-size: 1rem;
@@ -70,7 +74,7 @@
 </head>
 <body>
   <div class="container">
-    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/... (Base64 string continues here) ..." alt="" class="profile-pic" />
+    <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/... (Base64 string continues)" alt="" class="profile-pic" />
     
     <h1>Sarthak Rajendra Ghangale</h1>
     <h2>B.Tech – Computer Science</h2>
@@ -79,7 +83,7 @@
       <p><strong>College:</strong> Zeal College of Engineering and Research</p>
       <p><strong>Skills:</strong> HTML, CSS, C++</p>
       <p><strong>Projects:</strong> No projects yet</p>
-      <p><strong>Contact:</strong> 8767243765</p>
+      <p><strong>Contact:</strong> <a href="tel:+918767243765">8767243765</a></p>
     </div>
 
     <div class="contact">
